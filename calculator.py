@@ -34,6 +34,7 @@ class Calculator:
         result = a ** b
         self._push_stack(result)
         return result
+    
     def square_root(self, a):
         if a < 0:
             raise ValueError("Cannot take square root of negative number.")
